@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="config" content={JSON.stringify(getClientConfig())} />
+        <meta name="config" content='{"accessCode": false, "useCustomConfig": true}' />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
